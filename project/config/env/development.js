@@ -11,14 +11,8 @@
  */
 
 module.exports = {
-
-  /***************************************************************************
-   * Set the default database connection for models in the development       *
-   * environment (see config/connections.js and config/models.js )           *
-   ***************************************************************************/
-
-  // models: {
-  //   connection: 'someMongodbServer'
-  // }
-
+ aws: {
+  key:'AKIAIR23QLTTVUZNG4JQ',
+  secret: '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'
+}
 };
