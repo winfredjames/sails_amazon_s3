@@ -36,8 +36,8 @@ module.exports.routes = {
     view: 'homepage'
   },
   'post /upload':'UploadController.upload',
-  'post /download':'UploadController.download',
-  'post /getUrl':'UploadController.getUrl',
+  'get /download/:filename':'UploadController.download',
+  'get /getUrl/:filename':'UploadController.getUrl',
 
   '/stream':{
     view:'stream'
